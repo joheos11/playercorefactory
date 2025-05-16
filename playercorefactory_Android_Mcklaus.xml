@@ -1,0 +1,166 @@
+<playercorefactory>
+<players>
+	
+	<player name="[B] ~~~~~~~~~~~~~~ [/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>null</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+	
+	<player name="[B][COLOR white]REPRODUCTORES[/COLOR][COLOR aqua] EXT[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>null</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player> 
+	
+	<player name="[B][COLOR white]MOD BY[/COLOR][COLOR aqua] @McKlaus_Appss[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>null</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B] ~~~~~~~~~~~~~~~ [/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>null</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]*[/COLOR][COLOR white]HAY QUE INSTALAR[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>null</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player> 
+
+<player name="[B][COLOR aqua]EL REPRODUCTOR[/COLOR][COLOR lime]*[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>null</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player> 
+
+<player name="[B] ~~~~~~~~~~~~~~~~ [/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>null</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+	
+	<player name="[B][COLOR lime]•[/COLOR] [COLOR white]Wise[/COLOR][COLOR aqua]Play[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.wiseplay</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player> 
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]VLC[/COLOR] [COLOR aqua]Player[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>org.videolan.vlc</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]Ace[/COLOR] [COLOR aqua]Stream[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>org.acestream.media</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]MX Player[/COLOR] [COLOR aqua]Pro[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.mxtech.videoplayer.pro</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]MX Player[/COLOR] [COLOR aqua]Free[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.mxtech.videoplayer.ad</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]Web Video[/COLOR] [COLOR aqua]Caster[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.instantbits.cast.webvideo</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player> 
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]GSE[/COLOR] [COLOR aqua]IPTV[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.gsetech.smartiptv</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]IPTV[/COLOR] [COLOR aqua]Pro[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>ru.iptvremote.android.iptv.pro</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]IPTV[/COLOR] [COLOR aqua]Extreme[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.pecana.iptvextreme</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]TiviMate IPTV[/COLOR] [COLOR aqua]Player[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>http://ar.tvplayer.tv</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]MPV[/COLOR] [COLOR aqua]Player[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>is.xyz.mpv</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]BS Player[/COLOR] [COLOR aqua]Free[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.bsplayer.bspandroid.free</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]X[/COLOR][COLOR aqua]Player[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>video.player.videoplayer</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]All[/COLOR] [COLOR aqua]Cast[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.koushikdutta.cast</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]Local[/COLOR] [COLOR aqua]Cast[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>de.stefanpledl.localcast</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player> 
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]Blubble[/COLOR] [COLOR aqua]UPnP[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.bubblesoft.android.bubbleupnp</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]Ple[/COLOR][COLOR aqua]x[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.plexapp.android</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+<player name="[B][COLOR lime]•[/COLOR] [COLOR white]Mobo Player[/COLOR] [COLOR aqua]Free[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
+<filename>com.clov4r.android.nilz</filename>
+<hidexbmc>true</hidexbmc>
+<playcountminimumtime>120</playcountminimumtime>
+</player>
+
+</players>
+<rules action="prepend">
+<rule protocols="smb" player="DefaultPlayer" />
+<rule dvdimage="true" player="DefaultPlayer"/>
+<rule protocols="rtmp" player="DefaultPlayer"/>
+<rule protocols="rtsp" player="DefaultPlayer" />
+<rule protocols="sop" player="DefaultPlayer" />
+<rule internetstream="true" player="DefaultPlayer" />
+<rule audio="true" player="DefaultPlayer"/>
+<rule name="aceplayer" filename="http://127.0.0.1:6878*.*" player="[B][COLOR lime]•[/COLOR] [COLOR white]Ace[/COLOR] [COLOR aqua]Stream[/COLOR][/B]" />
+<rule video="true" player="DefaultPlayer"/>
+</rules>
+</playercorefactory>
