@@ -5,24 +5,28 @@
 	<filename>org.acestream.media</filename>
 	<hidexbmc>true</hidexbmc>
 	<hideconsole>false</hideconsole>
+	<playcountminimumtime>120</playcountminimumtime>
 </player>
 
 <player name="[B][COLOR white]AceStream[/COLOR][COLOR red] LINUX[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
 	<filename>acestreamplayer</filename>
 	<hidexbmc>true</hidexbmc>
 	<hideconsole>false</hideconsole>
+	<playcountminimumtime>120</playcountminimumtime>
 </player>
 
 <player name="[B][COLOR white]VLC[/COLOR][COLOR red] Windows[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
 	<filename>C:\Program Files\VideoLAN\VLC\vlc.exe</filename>
 	<hidexbmc>false</hidexbmc>
 	<hideconsole>false</hideconsole>
+	<playcountminimumtime>120</playcountminimumtime>
 </player>
 
 <player name="[B][COLOR white]VLC[/COLOR][COLOR red] MacOS[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
 	<filename>/Applications/VLC.app/Contents/MacOS/VLC</filename>
 	<hidexbmc>false</hidexbmc>
 	<hideconsole>false</hideconsole>
+	<playcountminimumtime>120</playcountminimumtime>
 </player>
 
 </players>
@@ -40,5 +44,4 @@
 	<rule audio="true" player="DefaultPlayer"/>
 	<rule video="true" player="DefaultPlayer"/>
 </rules>
-  
 </playercorefactory>
