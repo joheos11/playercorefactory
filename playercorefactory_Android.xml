@@ -2,13 +2,13 @@
 
 	<players>
 
-		<player name="Ace Stream Media" type="ExternalPlayer" audio="false" video="true"> <!-- acestrem media antiguo -->
+		<player name="Ace Stream Media" type="ExternalPlayer" audio="false" video="true">
 			<filename>org.acestream.media</filename>
 			<hidexbmc>true</hidexbmc>
 			<playcountminimumtime>120</playcountminimumtime>
 		</player>
 
-		<player name="Ace Stream Media Web" type="ExternalPlayer" audio="false" video="true"> <!-- acestrem media nuevo -->
+		<player name="Ace Stream Media Web" type="ExternalPlayer" audio="false" video="true">
 			<filename>org.acestream.media.web</filename>
 			<hidexbmc>true</hidexbmc>
 			<playcountminimumtime>120</playcountminimumtime>
@@ -48,6 +48,7 @@
 	
 	<rules action="prepend">
 		<rule name="aceplayer" filename="http://127.0.0.1:6878*.*" player="Ace Stream Media" />
+		<rule name="aceplayer" filename="acestream://.*" player="Ace Stream Media" />
 		<rule name="dvd" dvd="true" player="DefaultPlayer" />
 		<rule name="discimage" discimage="true" game="false" player="DefaultPlayer" />
 		<rule protocols="smb" player="DefaultPlayer" />
