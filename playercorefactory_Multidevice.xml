@@ -2,49 +2,43 @@
 <players>
 
 <player name="[B][COLOR white]AceStream[/COLOR][B][COLOR red] ANDROID[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
-  <filename>org.acestream.media</filename>
-  <args>"{1}" --fullscreen</args>
-  <hidexbmc>true</hidexbmc>
-  <hideconsole>false</hideconsole>
+	<filename>org.acestream.media</filename>
+	<hidexbmc>true</hidexbmc>
+	<hideconsole>false</hideconsole>
 </player>
 
 <player name="[B][COLOR white]AceStream[/COLOR][COLOR red] LINUX[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
-  <filename>acestreamplayer</filename>
-  <args>"{1}" --fullscreen</args>
-  <hidexbmc>true</hidexbmc>
-  <hideconsole>false</hideconsole>
+	<filename>acestreamplayer</filename>
+	<hidexbmc>true</hidexbmc>
+	<hideconsole>false</hideconsole>
 </player>
 
 <player name="[B][COLOR white]VLC[/COLOR][COLOR red] Windows[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
-  <filename>C:\Program Files\VideoLAN\VLC\vlc.exe</filename>
-  <args>"{1}" /fullscreen</args>
-  <hidexbmc>false</hidexbmc>
-  <hideconsole>false</hideconsole>
+	<filename>C:\Program Files\VideoLAN\VLC\vlc.exe</filename>
+	<hidexbmc>false</hidexbmc>
+	<hideconsole>false</hideconsole>
 </player>
 
 <player name="[B][COLOR white]VLC[/COLOR][COLOR red] MacOS[/COLOR][/B]" type="ExternalPlayer" audio="false" video="true">
-  <filename>/Applications/VLC.app/Contents/MacOS/VLC</filename>
-  <args>"{1}" --fullscreen</args>
-  <hidexbmc>false</hidexbmc>
-  <hideconsole>false</hideconsole>
+	<filename>/Applications/VLC.app/Contents/MacOS/VLC</filename>
+	<hidexbmc>false</hidexbmc>
+	<hideconsole>false</hideconsole>
 </player>
 
 </players>
 
-	<rules action="prepend">
-		<rule name="aceplayer" filename="http://127.0.0.1:6878*.*" player="Ace Stream Media" />
-		<rule name="dvd" dvd="true" player="DefaultPlayer" />
-		<rule name="discimage" discimage="true" game="false" player="DefaultPlayer" />
-		<rule protocols="smb" player="DefaultPlayer" />
-		<rule dvdimage="true" player="DefaultPlayer"/>
-		<rule protocols="rtmp" player="DefaultPlayer"/>
-		<rule protocols="rtsp" player="DefaultPlayer" />
-		<rule protocols="sop" player="DefaultPlayer" />
-		<rule internetstream="true" player="DefaultPlayer" />
-		<rule audio="true" player="DefaultPlayer"/>
-		<rule video="true" player="DefaultPlayer"/>
-	</rules>
+<rules action="prepend">
+	<rule name="aceplayer" filename="http://127.0.0.1:6878*.*" player="Ace Stream Media" />
+	<rule name="dvd" dvd="true" player="DefaultPlayer" />
+	<rule name="discimage" discimage="true" game="false" player="DefaultPlayer" />
+	<rule protocols="smb" player="DefaultPlayer" />
+	<rule dvdimage="true" player="DefaultPlayer"/>
+	<rule protocols="rtmp" player="DefaultPlayer"/>
+	<rule protocols="rtsp" player="DefaultPlayer" />
+	<rule protocols="sop" player="DefaultPlayer" />
+	<rule internetstream="true" player="DefaultPlayer" />
+	<rule audio="true" player="DefaultPlayer"/>
+	<rule video="true" player="DefaultPlayer"/>
+</rules>
   
-</playercorefactory>
-
 </playercorefactory>
