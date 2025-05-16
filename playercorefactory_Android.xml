@@ -5,36 +5,43 @@
 		<player name="Ace Stream Media" type="ExternalPlayer" audio="false" video="true"> <!-- acestrem media antiguo -->
 			<filename>org.acestream.media</filename>
 			<hidexbmc>true</hidexbmc>
+			<playcountminimumtime>120</playcountminimumtime>
 		</player>
 
 		<player name="Ace Stream Media Web" type="ExternalPlayer" audio="false" video="true"> <!-- acestrem media nuevo -->
 			<filename>org.acestream.media.web</filename>
 			<hidexbmc>true</hidexbmc>
+			<playcountminimumtime>120</playcountminimumtime>
 		</player>
 
 		<player name="Ace Stream Node" type="ExternalPlayer" audio="false" video="true">
 			<filename>org.acestream.node</filename>
 			<hidexbmc>true</hidexbmc>
+			<playcountminimumtime>120</playcountminimumtime>
 		</player>
 
 		<player name="Ace Stream Node Web" type="ExternalPlayer" audio="false" video="true">
 			<filename>org.acestream.node.web</filename>
 			<hidexbmc>true</hidexbmc>
+			<playcountminimumtime>120</playcountminimumtime>
 		</player>
 
 		<player name="Ace Stream Core" type="ExternalPlayer" audio="false" video="true">
 			<filename>org.acestream.core</filename>
 			<hidexbmc>true</hidexbmc>
+			<playcountminimumtime>120</playcountminimumtime>
 		</player>
 
 		<player name="Ace Stream Core Web" type="ExternalPlayer" audio="false" video="true">
 			<filename>org.acestream.core.web</filename>
 			<hidexbmc>true</hidexbmc>
+			<playcountminimumtime>120</playcountminimumtime>
 		</player>
 
 		<player name="VLC" type="ExternalPlayer" audio="false" video="true">
 			<filename>org.videolan.vlc</filename>
 			<hidexbmc>true</hidexbmc>
+			<playcountminimumtime>120</playcountminimumtime>
 		</player>
 
 	</players>
