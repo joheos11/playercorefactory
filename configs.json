@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Android",
+    "url": "https://raw.githubusercontent.com/joheos11/playercorefactory/main/playercorefactory_android.xml"
+  },
+  {
+    "name": "Windows",
+    "url": "https://raw.githubusercontent.com/joheos11/playercorefactory/main/playercorefactory_windows.xml"
+  },
+  {
+    "name": "Linux",
+    "url": "https://raw.githubusercontent.com/joheos11/playercorefactory/main/playercorefactory_linux.xml"
+  }
+]
