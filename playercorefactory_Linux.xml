@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playercorefactory>
+    <players>
+        <player name="VLC" type="ExternalPlayer" audio="false" video="true">
+            <filename>/usr/bin/vlc</filename>
+            <args>--play-and-exit "{1}"</args>
+            <hidexbmc>true</hidexbmc>
+            <forceontop>false</forceontop>
+        </player>
+        <player name="AceStream" type="ExternalPlayer" audio="false" video="true">
+            <filename>/usr/bin/acestreamplayer</filename>
+            <args>{1}</args>
+            <hidexbmc>true</hidexbmc>
+            <forceontop>false</forceontop>
+        </player>
+    </players>
+    <rules>
+        <!-- Usa AceStream para enlaces acestream:// -->
+        <rule name="acestream" filetypes="acestream" filename="acestream://" player="AceStream" />
+        <!-- Usa VLC para el resto de los videos -->
+        <rule name="videos" filetypes="mkv|mp4|avi|mov|flv|wmv|m3u8|ts|webm" player="VLC" />
+    </rules>
+</playercorefactory>
