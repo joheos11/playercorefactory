@@ -1,2 +1,2 @@
 # playercorefactory
-playercorefactory según sistema operativo
+Diferentes configuraciones del archivo playercorefactory.xml de kodi.
