@@ -19,7 +19,7 @@
     <rules>
         <!-- Usa AceStream para enlaces acestream:// -->
         <rule name="acestream" filename="http://127.0.0.1:6878*.*" player="Ace Stream Media" />
-	    <rule name="acestream" filename="acestream://.*" player="Ace Stream Media" />
+	<rule name="acestream" filename="acestream://.*" player="Ace Stream Media" />
         <!-- Usa VLC para el resto de los videos -->
         <rule name="videos" filetypes="mkv|mp4|avi|mov|flv|wmv|m3u8|ts|webm" player="VLC"/>
     </rules>
