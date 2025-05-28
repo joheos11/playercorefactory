@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playercorefactory>
+    <players>
+        <!-- VLC como reproductor externo en macOS -->
+        <player name="VLC" type="ExternalPlayer" audio="false" video="true">
+            <filename>/Applications/VLC.app/Contents/MacOS/VLC</filename>
+            <args>"{1}" --play-and-exit</args>
+            <hidexbmc>true</hidexbmc>
+            <forceontop>false</forceontop>
+        </player>
+        <!-- AceStream para macOS (usando Wine o ejecutable correspondiente) -->
+        <player name="AceStream" type="ExternalPlayer" audio="false" video="true">
+            <!-- Cambia la ruta a tu instalación real de AceStream; aquí se asume que usas Wine -->
+            <filename>/usr/local/bin/wine</filename>
+            <args>'/Users/$USER/.wine/drive_c/Program Files/ACEStream/player/ace_player.exe' {1}</args>
+            <hidexbmc>true</hidexbmc>
+            <forceontop>false</forceontop>
+        </player>
+    </players>
+    <rules>
+        <!-- Usa AceStream para enlaces acestream:// -->
+        <rule name="acestream" filename="acestream://" player="AceStream"/>
+        <!-- Usa VLC para el resto de los videos -->
+        <rule name="videos" filetypes="mkv|mp4|avi|mov|flv|wmv|m3u8|ts|webm" player="VLC"/>
+    </rules>
+</playercorefactory>
