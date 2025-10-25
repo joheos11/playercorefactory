@@ -2,17 +2,12 @@
 <playercorefactory>
     <players>
         <player name="AceStream" type="ExternalPlayer" audio="false" video="true">
-            <filename>org.acestream.media</filename>
+            <filename>intent://org.acestream.media</filename>
             <hidexbmc>true</hidexbmc>
-	        <playcountminimumtime>120</playcountminimumtime>
-        </player>
-        <player name="AceStream Media" type="ExternalPlayer" audio="false" video="true">
-	        <filename>org.acestream.node</filename>
-	        <hidexbmc>true</hidexbmc>
-	        <playcountminimumtime>120</playcountminimumtime>
+            <hideconsole>true</hideconsole>
         </player>
     </players>
-     <rules action="prepend">
+    <rules action="prepend">
         <rule protocols="acestream" player="AceStream" />
         <rule protocols="http,https" filename="acestream://" player="AceStream" />
     </rules>
