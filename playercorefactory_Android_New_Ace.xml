@@ -2,7 +2,7 @@
 <playercorefactory>
     <players>
         <player name="AceStream" type="ExternalPlayer" audio="false" video="true">
-            <filename>intent://org.acestream.media</filename>
+            <filename>org.acestream.media</filename>
             <hidexbmc>true</hidexbmc>
             <hideconsole>true</hideconsole>
         </player>
