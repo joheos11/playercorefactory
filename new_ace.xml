@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playercorefactory>
+    <players>
+        <player name="AceStream" type="ExternalPlayer" audio="false" video="true">
+            <filename>intent://org.acestream.media</filename>
+            <args></args>
+            <hidexbmc>false</hidexbmc>
+            <hideconsole>true</hideconsole>
+            <warpcore>false</warpcore>
+        </player>
+    </players>
+    <rules action="prepend">
+        <rule protocols="acestream" player="AceStream" />
+        <rule protocols="http,https" filename="acestream://" player="AceStream" />
+    </rules>
+</playercorefactory>
