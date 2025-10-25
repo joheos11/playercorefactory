@@ -2,13 +2,16 @@
 <playercorefactory>
     <players>
         <player name="AceStream" type="ExternalPlayer" audio="false" video="true">
-            <filename>org.acestream.media</filename>
+            <filename>intent://org.acestream.media</filename>
             <hidexbmc>true</hidexbmc>
-            <playcountminimumtime>10</playcountminimumtime>
+            <hideconsole>true</hideconsole>
         </player>
     </players>
     <rules action="prepend">
+        <!-- Regla para AceStream por puerto y path usados por acestream-proxy -->
+        <rule protocols="http,https" filename="127.0.0.1:6878" player="AceStream" />
+        <rule protocols="http,https" filename="ace/getstream" player="AceStream" />
+        <!-- Opcional: regla para “acestream://” directo si alguna lista la trae así -->
         <rule protocols="acestream" player="AceStream" />
-        <rule protocols="http,https" filename="acestream://" player="AceStream" />
     </rules>
 </playercorefactory>
