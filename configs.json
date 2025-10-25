@@ -3,6 +3,10 @@
   "name": "Default",
   "url": "https://raw.githubusercontent.com/joheos11/playercorefactory/refs/heads/main/playercorefactory_Default.xml"
   },
+   {
+  "name": "Android + Nuevo Acestream",
+  "url": "  https://raw.githubusercontent.com/joheos11/playercorefactory/refs/heads/main/playercorefactory_Android_New_Ace.xml"
+  },
   {
     "name": "Android",
     "url": "https://raw.githubusercontent.com/joheos11/playercorefactory/refs/heads/main/playercorefactory_Android.xml"
